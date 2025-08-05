@@ -1,4 +1,4 @@
-# 🚀 Desafio Técnico | BU Sales & Marketing
+# Desafio Técnico | BU Sales & Marketing
 
 ## ETL Inteligente com DeepSeek e Streamlit
 Este projeto implementa um pipeline **ETL** (Extract, Transform, Load) utilizando **Python** e **Streamlit** para interface web.  
@@ -6,7 +6,7 @@ O objetivo é processar arquivos CSV ou TXT, realizar uma pré-análise automati
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 - **Upload de arquivos** nos formatos `.csv` e `.txt`.
 - **Amostragem inteligente**: envio de 10 linhas iniciais, 10 do meio e 10 finais (ou arquivo completo se tiver < 30 linhas) para análise.
 - **Análise com DeepSeek** para:
@@ -23,7 +23,7 @@ O objetivo é processar arquivos CSV ou TXT, realizar uma pré-análise automati
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - [Python 3.11+](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
 - [Pandas](https://pandas.pydata.org/)
@@ -32,7 +32,7 @@ O objetivo é processar arquivos CSV ou TXT, realizar uma pré-análise automati
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 ```
 etl_deepseek/
 │── app.py              # Aplicação principal em Streamlit
