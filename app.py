@@ -124,7 +124,7 @@ if uploaded_file:
 
 
     if st.button("Criar tabela no banco (SQLite)"):
-        conn = sqlite3.connect("meu_banco.db")
+        conn = sqlite3.connect("etl_banco.db")
         cur = conn.cursor()
         cur.execute(f"DROP TABLE IF EXISTS {table_name}")
         cur.execute(sql_create)
@@ -134,7 +134,7 @@ if uploaded_file:
 
 
     if st.button("Inserir dados no banco (SQLite)"):
-        conn = sqlite3.connect("meu_banco.db")
+        conn = sqlite3.connect("etl_banco.db")
         df.to_sql(table_name, conn, if_exists="append", index=False)
         conn.close()
         st.success(f"{len(df)} registros inseridos com sucesso!")
